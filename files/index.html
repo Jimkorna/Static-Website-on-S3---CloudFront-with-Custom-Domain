@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ΤΟΣΤ</title>
+<style>
+  body {
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  .toast-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+  }
+  h1 {
+    color: #333;
+    margin-bottom: 40px;
+  }
+  .bread-top {
+    width: 400px;
+    height: 120px;
+    background-color: #e6b87c;
+    border-radius: 60px 60px 10px 10px;
+    border: 6px solid #c48c41;
+  }
+  .ketchup {
+    width: 420px;
+    height: 40px;
+    background-color: #d11a2a;
+    border-radius: 20px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0px 8px 10px rgba(209, 26, 42, 0.6);
+  }
+  .ketchup-drip {
+    width: 30px;
+    height: 50px;
+    background-color: #d11a2a;
+    border-radius: 15px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    box-shadow: 120px 15px 0 #d11a2a, 260px 25px 0 #d11a2a;
+  }
+  .cheese {
+    width: 410px;
+    height: 30px;
+    background-color: #ffdb58;
+    border-radius: 5px;
+    margin-top: -15px;
+    position: relative;
+    z-index: 2;
+    border: 2px solid #eebb00;
+  }
+  .ham {
+    width: 400px;
+    height: 40px;
+    background-color: #ffb6c1;
+    border-radius: 10px;
+    margin-top: 2px;
+    border: 2px solid #ff69b4;
+    position: relative;
+    z-index: 1;
+  }
+  .bread-bottom {
+    width: 400px;
+    height: 80px;
+    background-color: #e6b87c;
+    border-radius: 10px 10px 40px 40px;
+    border: 6px solid #c48c41;
+    margin-top: 2px;
+  }
+</style>
+</head>
+<body>
+
+<div class="toast-container">
+  <h1>Ορίστε ένα τόστ με ketchup!</h1>
+  
+  <div class="bread-top"></div>
+  <div class="ketchup">
+    <div class="ketchup-drip"></div>
+  </div>
+  <div class="cheese"></div>
+  <div class="ham"></div>
+  <div class="bread-bottom"></div>
+</div>
+
+</body>
+</html>
+  
